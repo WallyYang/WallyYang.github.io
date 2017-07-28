@@ -4,9 +4,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wallyyang.github.io/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2017-03-10T18:17:33.000Z</updated>
-  <id>http://wallyyang.github.io/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>Wally Yang</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://wallyyang.github.io/2017/03/12/hello-world/"/>
-    <id>http://wallyyang.github.io/2017/03/12/hello-world/</id>
+    <link href="http://yoursite.com/2017/03/12/hello-world/"/>
+    <id>http://yoursite.com/2017/03/12/hello-world/</id>
     <published>2017-03-12T14:59:01.334Z</published>
     <updated>2017-03-10T18:17:33.000Z</updated>
     
@@ -33,8 +33,8 @@
   
   <entry>
     <title>My First Post with hexo</title>
-    <link href="http://wallyyang.github.io/2017/03/10/My-First-Post-with-hexo/"/>
-    <id>http://wallyyang.github.io/2017/03/10/My-First-Post-with-hexo/</id>
+    <link href="http://yoursite.com/2017/03/10/My-First-Post-with-hexo/"/>
+    <id>http://yoursite.com/2017/03/10/My-First-Post-with-hexo/</id>
     <published>2017-03-10T22:20:36.000Z</published>
     <updated>2017-03-10T18:22:25.000Z</updated>
     
