@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="github.io/"/>
-  <updated>2017-03-10T18:17:33.000Z</updated>
+  <updated>2017-07-31T19:57:13.258Z</updated>
   <id>github.io/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mendel</title>
+    <link href="github.io/2017/07/31/mendel/"/>
+    <id>github.io/2017/07/31/mendel/</id>
+    <published>2017-07-31T19:28:14.000Z</published>
+    <updated>2017-07-31T19:57:13.258Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Mendel language is a programming language designed and implemented by me and four of my friends&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="projects" scheme="github.io/categories/projects/"/>
+    
+    
+      <category term="Node.js" scheme="github.io/tags/Node-js/"/>
+    
+      <category term="JavaScript" scheme="github.io/tags/JavaScript/"/>
+    
+      <category term="Compiler Theory" scheme="github.io/tags/Compiler-Theory/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
