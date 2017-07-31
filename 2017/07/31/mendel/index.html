@@ -28,9 +28,7 @@
                 
                 <li><a href="/resume">Resume</a></li>
                 
-                <li><a href="/projects">Projects</a></li>
-                
-                <li><a href="/archives">Archives</a></li>
+                <li><a href="/archives">Projects</a></li>
                 
                 <li><a href="/about">Contact</a></li>
                 
@@ -75,7 +73,25 @@
             </header>
             
             <div class="article-body">
-                <p>Mendel language is a programming language designed and implemented by me and four of my friends</p>
+                <p><img src="/picture/mendel_logo_small.png" alt="Mendel Logo"></p>
+<h1 id="Mendel-Programming-Language"><a href="#Mendel-Programming-Language" class="headerlink" title="Mendel Programming Language"></a>Mendel Programming Language</h1><p>Mendel is a statically typed, multi-paradigm, and compiled programming language with modern and clean style. The Mendel compiler was developed in JavaScript (and will migrate to Mendel itself in the future). Mendel can be compiled to low level subsets of JavaScript and C.</p>
+<p>Mendel is a project created in <a href="http://hack.osu.edu/" target="_blank" rel="external">HackOHI/O</a>. For more information about the project and out team, visit our <a href="http://go.osu.edu/intro2mendel" target="_blank" rel="external">presentation</a>.</p>
+<p>Key features of Mendel Programming Language:</p>
+<ul>
+<li>Template-based generic</li>
+<li>Prototype-based OOP</li>
+<li>Multi-paradigm: Proc + Func + OO</li>
+<li>Static &amp; strong typing</li>
+<li>Full type inference</li>
+<li>Clean, modern and flexible design</li>
+<li>Compiled to JavaScript &amp; C</li>
+<li>Simple enough to be built in 24 hours</li>
+</ul>
+<h2 id="Design-Purpose"><a href="#Design-Purpose" class="headerlink" title="Design Purpose"></a>Design Purpose</h2><p>Mendel language is a programming language designed and implemented by me and four of my friends. We decided to make this language a tool for students from CS major to non-CS major to learn programming. Therefore, the syntax of this programming language is very simple compared to most current languages, so that beginners can better focus on how to instruct computers to do work rather than trivial syntax. </p>
+<p>Meanwhile, the essence of Mendel programming language is extremely easy. So we believe it could also be a example to educate compiler theory. Since it only took us 24 hours for five students to implemented it, it would also be simple enough for CS students to learn the idea behind this compiler and thereby learn the theory of compiling a high-level language.</p>
+<p>My job in the team was mainly about implementing the basic semantics and a minimal standard library for the compiler. For example,<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">10</span>;</div><div class="line"><span class="keyword">var</span> b = <span class="number">42</span>;</div><div class="line">write(a + b);</div></pre></td></tr></table></figure></p>
+<p>This block contains three statement. And my first work is to provide a module to generate code for multiple statement block with the context of each statement like variables and functions. Meanwhile, I am responsible for writing codes for declaring variables and assignments, and things like built-in functions including <code>read()</code> and <code>write()</code>. After the modules I provide loaded by the compiler, the compiler is then able to generate corresponding object codes to run all the statements.</p>
+<p>Generally, this project gave me a really good experience of learning compiler theory with hands on the codes. And I was able to practice team working with my friends to better understand the procedure of a team coding project with tools like version control and uniform coding style.</p>
 
             </div>
         </div>
