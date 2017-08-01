@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
-    <title>Archives | Wally Yang</title>
+    <title>Configure Environment | Wally Yang</title>
     
     <link rel="stylesheet" href="/css/style.css">
     
@@ -46,89 +46,66 @@
         
     </header>
     <div class="site-body">
-        
-
-    
-    <div class="global-width">
-        <section class="archives">
+        <div class="global-width">
+    <article class="article" data-layout="post" data-slug="configure">
+        <div class="article-content">
             
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner" >
-        <header class="archive-article-header">
-            <a href="/2017/07/31/configure/" class="archive-article-year">
-  <time datetime="2017-08-01T01:08:34.000Z">2017.</time>
-</a><!--
-            --><a href="/2017/07/31/configure/" class="archive-article-date">
-  <time datetime="2017-08-01T01:08:34.000Z">07.31</time>
+            
+            <header class="article-header">
+                <div class="article-meta">
+                    <a href="/2017/07/31/configure/" class="article-date">
+  <time datetime="2017-08-01T01:08:34.000Z">2017-07-31</time>
 </a>
-            
-    <h1 class="archive-article-title" itemprop="name">
+                    
+  <div class="article-category categories">
+    <a class="category-link" href="/categories/projects/">projects</a>
+  </div>
+
+                    
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Bash/">Bash</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Emacs/">Emacs</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li></ul>
+
+                </div>
+                
+    <h1 class="article-title" itemprop="name">
       <a href="/2017/07/31/configure/">Configure Environment</a>
     </h1>
 
-        </header>
-    </div>
-</article>
+            </header>
             
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner" >
-        <header class="archive-article-header">
-            <a href="/2017/07/31/mendel/" class="archive-article-year">
-  <time datetime="2017-07-31T19:28:14.000Z">2017.</time>
-</a><!--
-            --><a href="/2017/07/31/mendel/" class="archive-article-date">
-  <time datetime="2017-07-31T19:28:14.000Z">07.31</time>
-</a>
-            
-    <h1 class="archive-article-title" itemprop="name">
-      <a href="/2017/07/31/mendel/">Mendel</a>
-    </h1>
+            <div class="article-body">
+                <h1 id="Configure-My-Own-Programming-Environment"><a href="#Configure-My-Own-Programming-Environment" class="headerlink" title="Configure My Own Programming Environment"></a>Configure My Own Programming Environment</h1><p>As a programmer, I love spending time to configure my own programming environment to help me become more efficient in programming.<br>Since most of the IDE (Integrated Development Environment) are provided with limited choice to customize, I chose emacs and Linux as my main working environment. So I kept maintaining a project to keep track with all the configuration code I made in my system in <a href="https://github.com/WallyYang/dotfiles" target="_blank" rel="external">Github</a></p>
+<p>Emacs is simply a text editor, so it does not ship with everything that an IDE provide, such as code completion. However, with certain customization, I can make it as good as an IDE. For example, I use C++ a lot in my projects, so I chose <a href="https://github.com/Valloric/ycmd" target="_blank" rel="external">ycmd</a> as my completion server. </p>
+<p><img src="/picture/emacs1.png" alt="C++ Completion with ycmd"></p>
+<p>As the picture shows, emacs can provide a good completion with the help of ycmd and some configuration codes I did. Meanwhile, since emacs is extremely customizable, it’s easier to get along with some less-popular programming languages like haskell, scheme, rust, etc. And this makes emacs a really useful tool when I try to learning some new programming languages.</p>
+<p>More importantly, IDEs are just coding tools, but I customize emacs with some codes so that it can help me a lot in my daily life.</p>
+<p><img src="/picture/emacs2.png" alt="Org Mode Notes"></p>
+<p>I like using emacs to take notes in some self-learning process like reading new technology books. I customize emacs so that it can provide clear outline when I take notes from different chapters and sections.</p>
+<p><img src="/picture/emacs4.png" alt="Getting Things Done"></p>
+<p>David Allen is a famous author for writing and implementing the system to Getting Things Done (GTD). When I first read the book, I found emacs to be a perfect tool for me to put everything to organzie my works, both short-term ones and long-term ones. </p>
+<p><img src="/picture/emacs5.png" alt="Getting Things Done"></p>
+<p>With the customization of some codes in emacs, I am able to keep track of the works and projects and make reminders to notify me of things that is more urgent than the others.</p>
+<p>There are many people who think spending <em>too much</em> time on programming tools is not good, because you could spend the time on actual project. But I believe tunning tools are important projects as well. The time I spent on emacs and Linux was not nothing. It helped me to do things more efficiently, and I actually learnt a lot when I tunning the tools. For instance, I learnt Bash scripts myself when I found myself needed a quick way to deploy my environment on a new machine, and I learnt the skills to manage source code when I study the codes in the open source community. Thus, I do recommend beginners to get their hands on some interesting codes to customize their system.</p>
 
-        </header>
-    </div>
-</article>
-            
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner" >
-        <header class="archive-article-header">
-            <a href="/2017/03/12/hello-world/" class="archive-article-year">
-  <time datetime="2017-03-12T14:59:01.334Z">2017.</time>
-</a><!--
-            --><a href="/2017/03/12/hello-world/" class="archive-article-date">
-  <time datetime="2017-03-12T14:59:01.334Z">03.12</time>
-</a>
-            
-    <h1 class="archive-article-title" itemprop="name">
-      <a href="/2017/03/12/hello-world/">Hello World</a>
-    </h1>
+            </div>
+        </div>
+    </article>
 
-        </header>
-    </div>
-</article>
-            
-                <article class="archive-article archive-type-post">
-    <div class="archive-article-inner" >
-        <header class="archive-article-header">
-            <a href="/2017/03/10/My-First-Post-with-hexo/" class="archive-article-year">
-  <time datetime="2017-03-10T22:20:36.000Z">2017.</time>
-</a><!--
-            --><a href="/2017/03/10/My-First-Post-with-hexo/" class="archive-article-date">
-  <time datetime="2017-03-10T22:20:36.000Z">03.10</time>
-</a>
-            
-    <h1 class="archive-article-title" itemprop="name">
-      <a href="/2017/03/10/My-First-Post-with-hexo/">My First Post with hexo</a>
-    </h1>
+    
+    
+<nav class="article-nav">
+  
+  
+    <a href="/2017/07/31/mendel/" id="article-nav-older" class="article-nav-link-wrap next">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Mendel</div>
+    </a>
+  
+</nav>
 
-        </header>
-    </div>
-</article>
-            
-        </section>
-        
-    </div>
+    
 
-
+    
+</div>
     </div>
     <footer class="site-footer">
         <div class="global-width">

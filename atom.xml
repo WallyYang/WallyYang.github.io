@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="github.io/"/>
-  <updated>2017-08-01T00:48:17.917Z</updated>
+  <updated>2017-08-01T02:15:06.544Z</updated>
   <id>github.io/</id>
   
   <author>
@@ -16,11 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Configure Environment</title>
+    <link href="github.io/2017/07/31/configure/"/>
+    <id>github.io/2017/07/31/configure/</id>
+    <published>2017-08-01T01:08:34.000Z</published>
+    <updated>2017-08-01T02:15:06.544Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Configure-My-Own-Programming-Environment&quot;&gt;&lt;a href=&quot;#Configure-My-Own-Programming-Environment&quot; class=&quot;headerlink&quot; title=&quot;Configure My
+    
+    </summary>
+    
+      <category term="projects" scheme="github.io/categories/projects/"/>
+    
+    
+      <category term="Emacs" scheme="github.io/tags/Emacs/"/>
+    
+      <category term="Linux" scheme="github.io/tags/Linux/"/>
+    
+      <category term="Bash" scheme="github.io/tags/Bash/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Mendel</title>
     <link href="github.io/2017/07/31/mendel/"/>
     <id>github.io/2017/07/31/mendel/</id>
     <published>2017-07-31T19:28:14.000Z</published>
-    <updated>2017-08-01T00:48:17.917Z</updated>
+    <updated>2017-08-01T01:09:15.100Z</updated>
     
     <summary type="html">
     
