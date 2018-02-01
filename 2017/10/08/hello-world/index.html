@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     
-    <title>Mendel | Wally Yang</title>
+    <title>Hello World | Wally Yang</title>
     
     <link rel="stylesheet" href="/css/style.css">
     
@@ -47,52 +47,35 @@
     </header>
     <div class="site-body">
         <div class="global-width">
-    <article class="article" data-layout="post" data-slug="mendel">
+    <article class="article" data-layout="post" data-slug="hello-world">
         <div class="article-content">
             
             
             <header class="article-header">
                 <div class="article-meta">
-                    <a href="/2017/07/31/mendel/" class="article-date">
-  <time datetime="2017-07-31T19:28:14.000Z">2017-07-31</time>
+                    <a href="/2017/10/08/hello-world/" class="article-date">
+  <time datetime="2017-10-08T14:41:32.885Z">2017-10-08</time>
 </a>
                     
-  <div class="article-category categories">
-    <a class="category-link" href="/categories/projects/">projects</a>
-  </div>
-
                     
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Compiler-Theory/">Compiler Theory</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Node-js/">Node.js</a></li></ul>
-
                 </div>
                 
     <h1 class="article-title" itemprop="name">
-      <a href="/2017/07/31/mendel/">Mendel</a>
+      <a href="/2017/10/08/hello-world/">Hello World</a>
     </h1>
 
             </header>
             
             <div class="article-body">
-                <p><img src="/picture/mendel_logo_small.png" alt="Mendel Logo"></p>
-<h1 id="Mendel-Programming-Language"><a href="#Mendel-Programming-Language" class="headerlink" title="Mendel Programming Language"></a>Mendel Programming Language</h1><p>Mendel is a statically typed, multi-paradigm, and compiled programming language with modern and clean style. The Mendel compiler was developed in JavaScript (and will migrate to Mendel itself in the future). Mendel can be compiled to low level subsets of JavaScript and C.</p>
-<p>Mendel is a project created in <a href="http://hack.osu.edu/" target="_blank" rel="external">HackOHI/O</a>. For more information about the project and out team, visit our <a href="http://go.osu.edu/intro2mendel" target="_blank" rel="external">presentation</a>.</p>
-<p>Key features of Mendel Programming Language:</p>
-<ul>
-<li>Template-based generic</li>
-<li>Prototype-based OOP</li>
-<li>Multi-paradigm: Proc + Func + OO</li>
-<li>Static &amp; strong typing</li>
-<li>Full type inference</li>
-<li>Clean, modern and flexible design</li>
-<li>Compiled to JavaScript &amp; C</li>
-<li>Simple enough to be built in 24 hours</li>
-</ul>
-<h2 id="Design-Purpose"><a href="#Design-Purpose" class="headerlink" title="Design Purpose"></a>Design Purpose</h2><p>Mendel language is a programming language designed and implemented by me and four of my friends. We decided to make this language a tool for students from CS major to non-CS major to learn programming. Therefore, the syntax of this programming language is very simple compared to most current languages, so that beginners can better focus on how to instruct computers to do work rather than trivial syntax. </p>
-<p>Meanwhile, the essence of Mendel programming language is extremely easy. So we believe it could also be a example to educate compiler theory. Since it only took us 24 hours for five students to implemented it, it would also be simple enough for CS students to learn the idea behind this compiler and thereby learn the theory of compiling a high-level language.</p>
-<p>My job in the team was mainly about implementing the basic semantics and a minimal standard library for the compiler. For example,<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">10</span>;</div><div class="line"><span class="keyword">var</span> b = <span class="number">42</span>;</div><div class="line">write(a + b);</div></pre></td></tr></table></figure></p>
-<p>This block contains three statement. And my first work is to provide a module to generate code for multiple statement block with the context of each statement like variables and functions. Meanwhile, I am responsible for writing codes for declaring variables and assignments, and things like built-in functions including <code>read()</code> and <code>write()</code>. After the modules I provide loaded by the compiler, the compiler is then able to generate corresponding object codes to run all the statements.</p>
-<p>Generally, this project gave me a really good experience of learning compiler theory with hands on the codes. And I was able to practice team working with my friends to better understand the procedure of a team coding project with tools like version control and uniform coding style.</p>
-<p>We are currently maintaining the source code of the compiler at this <a href="https://github.com/hczhcz/mendel-lang" target="_blank" rel="external">github repo</a></p>
+                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
             </div>
         </div>
@@ -102,19 +85,10 @@
     
 <nav class="article-nav">
   
-    <a href="/2017/07/31/configure/" id="article-nav-newer" class="article-nav-link-wrap prev">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Configure Environment
-        
-      </div>
-    </a>
   
-  
-    <a href="/2017/03/10/My-First-Post-with-hexo/" id="article-nav-older" class="article-nav-link-wrap next">
+    <a href="/2017/07/31/configure/" id="article-nav-older" class="article-nav-link-wrap next">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">My First Post with hexo</div>
+      <div class="article-nav-title">Configure Environment</div>
     </a>
   
 </nav>
